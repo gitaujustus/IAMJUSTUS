@@ -1,7 +1,12 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- # Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). -->
+# IAMJUSTUS
+
+Explore my portfolio website—an immersive journey through my creative endeavors, showcasing a fusion of passion, skill, and unique accomplishments
+
+![I'm Justus](https://github.com/gitaujustus/IAMJUSTUS/blob/main/src/photos/portifolio.jpg)
 
 ## Available Scripts
 
