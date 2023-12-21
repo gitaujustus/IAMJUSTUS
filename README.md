@@ -74,10 +74,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# My-Portifolio
-# My-Portifolio
+
 =======
 # IAMJUSTUS
 Explore my portfolio website—an immersive journey through my creative endeavors, showcasing a fusion of passion, skill, and unique accomplishments.
->>>>>>> 0cf56ee4ae116620c851d5b9d1bc0456767bd58d
+
 # IAMJUSTUS
