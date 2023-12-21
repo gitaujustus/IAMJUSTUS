@@ -80,7 +80,7 @@ const Contacts = () => {
         Contact Me
       </h1>
       <div className="flex items-center md:items-center justify-center  md:justify-between p-12">
-      <img src={picture} alt="contact" className="h-10 md:h-28 swinging-image" srcset="" />
+      <img src={picture} alt="contact" className="h-10 hidden sm:block md:h-28 swinging-image" srcset="" />
         <div className="mx-auto w-full max-w-[550px]">
           <h2 className="text-center text-white text-xl underline">
             Say Hi to Justus!
@@ -153,7 +153,7 @@ const Contacts = () => {
             <ToastContainer />
           </form>
         </div>
-            <img src={messageUs} alt="contact" className="h-10 md:h-28 swinging-image" srcset="" />
+            <img src={messageUs} alt="contact" className="h-10 md:h-28 hidden sm:block swinging-image" srcset="" />
       </div>
     </div>
   );

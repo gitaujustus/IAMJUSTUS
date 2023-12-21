@@ -38,7 +38,7 @@ const Home = () => {
           <a href="https://github.com/Young-Professor"><BsGithub size={26} className="" /></a>
 
         </div>
-       <div className="mt-4">
+       <div className="mt-4 mx-5 md:mx-0">
        <a href="https://visitcount.itsvg.in">
             <img src="https://visitcount.itsvg.in/api?id=myportifolio&label=Views&color=2&icon=5&pretty=true" />
         </a>

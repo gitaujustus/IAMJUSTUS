@@ -3,6 +3,8 @@ import Hotel from '../photos/Hotel.png'
 import project from '../photos/svgviewer-png-output.png'
 import project2 from '../photos/svgviewer-png-output (1).png'
 import BlogWeb from '../photos/BlogWeb.png'
+import landlord from '../photos/landlord.jpg'
+
 import closet from '../photos/closet.jpg'
 import challenge from '../photos/challenge.png'
 import { IoHeart } from "react-icons/io5";
@@ -12,9 +14,9 @@ const projects = () => {
   return (
     
     <div id='projects' className="mx-auto px-6 sm:px-10 md:px-20 about">
-      <div className='flex mt20 mb-10'>
-        <img src={project2} alt="project" className="h-52 swinging-iage m-auto" srcset="" />
-        <img src={project} alt="project" className="h-52 swinging-iage m-auto" srcset="" />
+      <div className='flex mt-20 mb-10'>
+        <img src={project2} alt="project" className="h-52 swinging-image m-auto" srcset="" />
+        <img src={project} alt="project" className="h-52 hidden md:flex md:m-auto " srcset="" />
       </div>
       <h1 className="text-2xl text-yellow-500 underline text-center p-4">Projects</h1>
       <div>
@@ -54,20 +56,6 @@ const projects = () => {
           <p><a className='text-yellow-500 underline' href="https://github.com/Young-Professor/Mind-GuessGame" target="_blank">Source</a></p>
           </div>
         </div>
-        {/* <div className="w-60 box-border ">
-          <a href="https://github.com/Young-Professor/Mind-GuessGame" target="_blank"><img src={closet} alt="guessgame" /></a> 
-          <p className='text-white'>Centri Closet is an online marketplace for Baraton University Student</p>
-          <div className='flex justify-between'>
-          <p><a className='text-yellow-500' href="https://campus-closet.vercel.app/">Preview</a></p>
-          <p><a className='text-yellow-500 line-through' href="" target="_blank">Source</a></p>
-          </div>
-        </div> */}
-        {/* <div className="w-60 box-border bg-[#1F2235] h-52 rounded-lg shadow-[#ff3700] shadow-lg">
-          
-        </div>
-        <div className="w-60 box-border bg-[#1F2235] h-52 rounded-lg shadow-[#ff3700] shadow-lg">
-          
-        </div> */}
         <div className="w-60 box-border bg-[#1F2235] h-auto p-2 rounded-lg my-3 shadow-[#00d0ff] shadow-lg">
         <a href="https://github.com/Young-Professor/Mind-GuessGame" target="_blank"><img src={closet} alt="guessgame" /></a> 
           <p className='text-white'>Centri Closet is an online marketplace for Baraton University Student</p>
@@ -75,6 +63,19 @@ const projects = () => {
           <p><a className='text-yellow-500 border px-2 rounded-lg' href="https://campus-closet.vercel.app/">Preview</a></p>
           <p><IoHeart color='red' size={26}/></p>
           </div>
+        </div>
+        <div className="w-60 box-border bg-[#1F2235] h-auto p-2 rounded-lg my-3 shadow-[#00d0ff] shadow-lg">
+          
+        <div className='flex justify-around'>
+        <a href="https://github.com/Young-Professor/Mind-GuessGame" target="_blank"><img src={landlord} className='h-48' alt="guessgame" /></a> 
+          <div>
+          <p className='text-white w-[70%] md:w-24 mr-auto'>Centri Closet is an online marketplace for Baraton University Student</p>
+          <div className='flex justify-between'>
+          <p><a className='text-yellow-500 border px-2 rounded-lg' href="https://campus-closet.vercel.app/">Preview</a></p>
+          <p><IoHeart color='red' size={26}/></p>
+          </div>
+          </div>
+        </div>
         </div>
         
       </div>
