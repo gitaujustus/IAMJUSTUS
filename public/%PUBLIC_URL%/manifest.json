@@ -1,19 +1,19 @@
 {
     "short_name": "YoungProfessor.blog",
-    "name": "Create React App Sample",
+    "name": "My Portifolio",
     "icons": [
       {
-        "src": "Logo.jpg",
+        "src": "/public/PUBLIC_URL/MyLogo.png",
         "sizes": "64x64 32x32 24x24 ",
         "type": "image/png"
       },
       {
-        "src": "Logo.jpg",
+        "src": "/public/PUBLIC_URL/MyLogo.png",
         "type": "image/png",
         "sizes": "246x256"
       },
       {
-        "src": "Logo.jpg",
+        "src": "/public/PUBLIC_URL/MyLogo.png",
         "type": "image/png",
         "sizes": "246x256"
       }

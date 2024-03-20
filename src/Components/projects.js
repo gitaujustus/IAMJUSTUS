@@ -20,7 +20,7 @@ const projects = () => {
       </div>
       <h1 className="text-2xl text-yellow-500 underline text-center p-4">Projects</h1>
       <div>
-        <p className="text-white my-2">These are some of the projects which i have been working on:</p>
+        <p className="text-white my-2">Theseeee are some of the projects which i have been working on:</p>
       <div className="flex flex-wrap justify-between projects">
       <div className="w-60 box-border bg-[#1F2235] h-auto p-2 rounded-lg my-3 shadow-[#00d0ff] shadow-lg">
            <a href="https://blogging-website-five.vercel.app/" target="_blank"><img src={BlogWeb} alt="InnovateZone" /></a> 
@@ -32,10 +32,10 @@ const projects = () => {
         </div>
         </div>
         <div className="w-60 box-border bg-[#1F2235] h-auto p-2 rounded-lg my-3 shadow-[#00d0ff] shadow-lg">
-           <a href="https://young-professor.github.io/" target="_blank"><img src={Hotel} alt="Hotel MIS" /></a> 
+           :
         <p className='text-white'>Hotel MIS made with Html/Css, Javascript Languages</p>
         <div className='flex justify-between'>
-          <p><a className='text-yellow-500 border px-2 rounded-lg' href="https://young-professor.github.io/" target="_blank">Preview</a></p>
+          <p><a className='text-yellow-500 border px-2 rounded-lg' href="https://young-professor-github-io.vercel.app/" target="_blank">Preview</a></p>
           <p><a className='text-yellow-500 border px-2 rounded-lg' href="https://github.com/Young-Professor/Young-Professor.github.io" target="_blank">Source</a></p>
         </div>
 
