@@ -24,7 +24,7 @@ const Home = () => {
             enjoy reading and listening to music in my free time. As an avid
             traveler and explorer, I incorporate my experiences and insights
             into my work, constantly pushing the boundaries of what's possible
-            in software engineering. Get in touch to know more about me :;
+            in software engineering. Get in touch to know more about me :
           </p>
         </div>
 
