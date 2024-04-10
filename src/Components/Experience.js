@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import pic from "../photos/programming.png"
 const Experience = () => {
   return (
-    <div id="experience" className="mx-auto px-6 sm:px-10 md:px-20 about">
+    <div id="experience" className="mx-auto px-3 sm:px-10 md:px-20 about">
       <h1 className="text-2xl text-yellow-500 underline text-center">
         My Experience
       </h1>
