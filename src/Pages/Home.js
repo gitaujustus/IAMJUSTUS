@@ -3,9 +3,17 @@ import "../index.css";
 import { BsFacebook,BsInstagram,BsTwitter,BsGithub } from "react-icons/bs";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { AiFillLinkedin } from "react-icons/ai";
+import { FaArrowRight } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 
 const Home = () => {
+  const scrollToContacts=()=>{
+    setTimeout(() => {
+        const ContactsElement = document.getElementById('contacts');
+        ContactsElement.scrollIntoView({ behavior: 'smooth' });
+    }, 300);
+}
   return (
     <div className="flex flex-col md:flex-row my-10 ">
       <div className=" md:mr-32">
@@ -18,7 +26,7 @@ const Home = () => {
         </div>
         <div className="w-96 Bio">
           <p className="text-white">
-          I&apos;m <span className="text-blue-200">Justus Gitau</span>, CEO and Founder of <span className="text-blue-200">J'ASTUTE</span> and  a full-stack developer studying software
+          I&apos;m <a href="https://www.linkedin.com/in/justus-gitau-3a9837257/" className="text-blue-200">Justus Gitau</a>, CEO and Founder of <span className="text-blue-200">J'ASTUTE</span> and  a full-stack developer studying software
             engineering at University of Eastern Africa, Baraton. I have a
             strong interest in artificial intelligence and machine learning, and
             enjoy reading and listening to music in my free time. As an avid
@@ -27,6 +35,9 @@ const Home = () => {
             in software engineering. Get in touch to know more about me :
           </p>
         </div>
+        <NavLink onClick={scrollToContacts} to="/contacts"  className="text-black w-36 font-bold py-6 h-8 rounded-md my-4 mx-auto md:mx-0 bg-gradient-to-r from-[#2A97A5] to-[#EEF3FF]  flex items-center p-2 gap-2">
+          Get in touch  <FaArrowRight />
+        </NavLink>
 
         <br />
         <div className="flex space-x-5 sociallize">

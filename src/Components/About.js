@@ -1,4 +1,5 @@
 import about from "../photos/about.png"
+import { NavLink } from "react-router-dom";
 const About = () => {
   return (
     <div id="about" className="mx-auto mt-20  px-6 sm:px-10 md:px-20 about">
@@ -22,7 +23,7 @@ const About = () => {
           <p>
             I have experience with{" "}
             <span className="text-yellow-500">
-              HTML, CSS, JavaScript, Node.js, React, MySQL, and Tailwind CSS
+              HTML, CSS, JavaScript, Typescript, Node.js, React, NextJs, Postgres, MySQL, and Tailwind CSS (PERN Stack)
             </span>
             . I love exploring new technologies and creating user-friendly web
             interfaces with responsive design.
@@ -36,8 +37,17 @@ const About = () => {
             lives.
           </p>
           <br />
+          
           <p>
-            Please check out my projects and skills pages to learn more about my
+            Please check out {" "}
+             <NavLink to="/projects" className="text-yellow-300 underline">
+            my projects
+            </NavLink>
+              {" "}and {" "}
+              <NavLink to="/experience" className="text-yellow-300 underline">
+              skills pages
+            </NavLink>
+            {" "} to learn more about my
             work and capabilities. Thank you for taking the time to visit my
             portfolio website.
           </p>
