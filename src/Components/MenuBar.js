@@ -39,7 +39,7 @@ const Menus = () => {
     return ( 
         <div className="flex justify-between items-center p-2.5 menu">
             <div>
-                <h2 className='text-2xl mx-3 text-yellow-500 greetings'>{greeting}</h2>
+                <h2 className='text-2xl mx-3 text-yellow-500 greetings font-bold'>{greeting}</h2>
             </div> 
             <ul className="flex  h-10 space-x-5 items-center mx-5 text-xl text-blue-500 menuItems">
                 <li><NavLink exact='true' to="/" ><b>Home</b></NavLink></li>

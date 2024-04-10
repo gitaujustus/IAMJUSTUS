@@ -1,7 +1,7 @@
 import about from "../photos/about.png"
 const About = () => {
   return (
-    <div id="about" className="mx-auto px-6 sm:px-10 md:px-20 about">
+    <div id="about" className="mx-auto mt-20  px-6 sm:px-10 md:px-20 about">
       <h1 className="text-2xl text-yellow-500 underline text-center">
         About Me
       </h1>
@@ -12,7 +12,7 @@ const About = () => {
             {/* Hi, I'm Justus, a software engineer from Nairobi, Kenya. As a senior
               student pursuing a degree in software engineering, I'm passionate
               about solving complex problems through programming. */}
-            Hi, I'm Justus, a software engineer from Nairobi, Kenya, and founder
+            Hi, I&apos;m Justus, a software engineer from Nairobi, Kenya, and founder
             of  <span className="text-yellow-300">JASTUTE</span> — a tech and graphic company. I oversee  <span className="text-yellow-300">Centri Closet</span>, a
             popular ecommerce website based in  <span className="text-yellow-300">Baraton University</span> . As a senior software
             engineering student, I'm dedicated to problem-solving through
@@ -30,7 +30,7 @@ const About = () => {
         </div>
         <div className="w-full md:w-1/2">
           <p>
-            When I'm not coding, I enjoy reading and going on adventures to new
+            When I&apos;m not coding, I enjoy reading and going on adventures to new
             places. My goal is to use my skills to make a positive impact in
             society, by identifying and solving problems that affect people's
             lives.

@@ -29,7 +29,7 @@ html {
     padding: 8px;
 }
 .about{
-    margin-top: -90px;
+    margin-top: -20px;
 }
 .mybio{
     color: aqua;
@@ -89,10 +89,15 @@ html {
   .footer-contact form button:hover {
     background-color: #ccc;
   }
+  .tenantconnect{
+    width: 330px !important;
+    @apply mr-2
+  }
 @media (max-width: 768px) {
-    .mybio{
-        margin-top: -40px;
-    }
+  .tenantconnect{
+    width: 330px !important;
+    @apply mr-2
+  }
     .welcome{
         margin-left: 20px;
     }
@@ -105,10 +110,10 @@ html {
     .projects{
         display: block;
     }
-    .projects div{
+    /* .projects div{
         width: 97%;
         margin-top: 20px;
-    }
+    } */
     .Bio{
     width: 94%;
     margin-left: 20px;
@@ -127,6 +132,10 @@ html {
     .myImage{
         margin-left: 10px;
         margin-top: -50px;
+    }
+    .tenantconnect{
+      width: 230px !important;
+      @apply mr-2
     }
 }
 
